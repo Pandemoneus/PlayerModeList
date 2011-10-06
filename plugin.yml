@@ -1,0 +1,18 @@
+name: PlayerModeList
+main: ger.pandemoneus.playerModeList.PlayerModeList
+version: '1.00'
+author: 'Pandemoneus'
+
+commands:
+    playermodelist:
+        description: Lists the game mode of all online players.
+        aliases: pml
+        usage: |
+            /<command> (player)
+            Example: /<command> - lists the game mode of all online players
+            Example: /<command> Bob - see which game mode Bob is in
+               
+permissions:
+    playermodelist.list:
+        description: Needed to use the /pml command.
+        default: op
